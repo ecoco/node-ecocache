@@ -1,0 +1,43 @@
+{
+    "name": "ecocache",
+    "description": "Caching Module Supporting multiple storage engines",
+    "version": "0.0.1",
+    "author": {
+        "name": "ecocode GmbH",
+        "url": "http://www.ecocode.de/"
+    },
+    "homepage": "https://github.com/ecoco/node-ecocache",
+    "contributors": [
+        {
+            "name": "Justus Krapp",
+            "email": "jk@ecocode.de"
+        }
+    ],
+    "licenses": [
+        "MIT"
+    ],
+    "main": "cache.js",
+    "dependencies": {
+        "async":  "0.2.*",
+        "hiredis": "*",
+        "redis": "*"
+    },
+    "devDependency":{
+        "nodeunit": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ecoco/node-ecocache.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ecoco/node-ecocache/issues"
+    },
+    "scripts": {
+        "test": "nodeunit test"
+    },
+    "keywords": [
+        "cache",
+        "redis",
+        "memory"
+    ]
+}
